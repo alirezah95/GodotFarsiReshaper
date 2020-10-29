@@ -1,6 +1,7 @@
 ## API Reference:
 
 <h4>
+
 ``` Java
 getReshapedString(text: String) -> String:
 ``` 
