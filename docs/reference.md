@@ -68,8 +68,3 @@ getContentMargin() -> int:
 </h4>
 
 * Returns **contentMargin** value.
-
-
-
-<h4> <code class="lang-python"> getContentMargin() -> int: </code>
-</h4>
