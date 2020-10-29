@@ -1,3 +1,4 @@
+Read this in **[Farsi](https://github.com/alirezah95/GodotFarsiReshaper/blob/main/docs/README_fa-IR.md)**.
 # Godot FarsiReshaper
 Provides the ability to write Farsi in games made with [Godot game engine](https://godotengine.org/).
 
