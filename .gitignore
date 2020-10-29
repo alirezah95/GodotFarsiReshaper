@@ -35,3 +35,4 @@
 *.os
 build
 *.dblite
+*.zip
