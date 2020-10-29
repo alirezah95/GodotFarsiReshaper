@@ -56,7 +56,7 @@ void FarsiReshaper::disableAutoWrap()
 } // disableAutoWrap
 
 
-bool FarsiReshaper::enableAutoWrap(Font* __font, long __maxLineWidth)
+bool FarsiReshaper::enableAutoWrap(Font* __font, uint64_t __maxLineWidth)
 {
 	if (__maxLineWidth == 0) {
 		m_autoWrap = false;
@@ -74,7 +74,7 @@ bool FarsiReshaper::enableAutoWrap(Font* __font, long __maxLineWidth)
 } // enableAutoWrap
 
 
-void FarsiReshaper::setMaxLineWidth(int __maxLineWidth)
+void FarsiReshaper::setMaxLineWidth(uint64_t __maxLineWidth)
 {
 	m_maxLineWidth = __maxLineWidth;
 	return;

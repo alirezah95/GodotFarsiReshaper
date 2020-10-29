@@ -64,8 +64,8 @@ public:
 	void _init(); // must exits even if no code is put in it
 
 	void disableAutoWrap();
-	bool enableAutoWrap(Font* __font, long __maxWidth);
-	void setMaxLineWidth(int __maxWidth);
+	bool enableAutoWrap(Font* __font, uint64_t __maxWidth);
+	void setMaxLineWidth(uint64_t __maxWidth);
 	void setFont(Font* __font);
 	void setContentMargin(int __margin);
 	int getContentMargin() const;
@@ -113,8 +113,8 @@ private:
 	vector<uint8_t> m_result;
 
 	bool m_autoWrap;
-	long m_maxLineWidth;
-	long m_currentLineWidth;
+	uint64_t m_maxLineWidth;
+	uint64_t m_currentLineWidth;
 	int m_contentMargin;
 };
 
